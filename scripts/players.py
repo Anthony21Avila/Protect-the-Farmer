@@ -73,7 +73,7 @@ class Player1:
 class Player2(Player1):
     def __init__(self, sprite_data, spritesheet):
         super().__init__(sprite_data, spritesheet)
-        self.posicionX = 700
+        self.posicionX = 60
         self.posicionY = 250
         self.radio = 20
         self.velocidad = 3

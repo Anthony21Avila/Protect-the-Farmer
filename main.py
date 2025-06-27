@@ -4,8 +4,8 @@ from scripts.players import Player1, Player2
 pygame.init()
 pygame.joystick.init()
 
-altura = 500
-ancho = 800
+altura = 900
+ancho = 1500
 screen = pygame.display.set_mode((ancho, altura))
 surface = pygame.Surface((ancho, altura), pygame.SRCALPHA)
 pygame.display.set_caption("Vamos por todo")
